@@ -1,19 +1,4 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ROOT xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Items>
-    <Item>
-      <name>Demo项目(鼓浪屿 17级)</name>
-      <level>17</level>
-      <centerlat>24.4513316292219</centerlat>
-      <centerlng>118.073851111117</centerlng>
-      <date>2020-03-12</date>
-    </Item>
-    <Item>
-      <name>111</name>
-      <level>17</level>
-      <centerlat>30.2109113129119</centerlat>
-      <centerlng>119.931978108488</centerlng>
-      <date>2022-08-10</date>
-    </Item>
-  </Items>
+  <Items />
 </ROOT>

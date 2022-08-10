@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="edge" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>百度地图</title>
-<script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=Z2MZR3RVTUheBBPSwXjIGI4SEByUYEmF"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak="></script>
 <script type="text/javascript" src="js/AreaRestriction.js"></script>
 <script type="text/javascript" src="js/DrawingManager_one_rect.js"></script>
 <link rel="stylesheet" href="style/DrawingManager.css" />
@@ -85,7 +85,8 @@
 	var newMapType = new this.BMap.MapType("新地图",defaultTileLayer,{minZoom:5,maxZoom:20});
 	this.map.setMapType(newMapType);
 	// 初始化地图,设置中心点坐标和地图级别。
-	map.centerAndZoom(point,16);                     						
+	map.centerAndZoom(point,16); 
+	map.enableScrollWheelZoom(true);                  						
 	map.addControl(new BMap.NavigationControl());
 	map.disableDoubleClickZoom();
 	
